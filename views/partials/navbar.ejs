@@ -1,0 +1,11 @@
+<nav class="navbar bg-base-200 justify-between">
+  <div class="navbar-start">
+    <a class="btn btn-ghost normal-case text-xl" href="/">Lego Collection</a>
+  </div>
+  <div class="navbar-end flex items-center"> 
+    <a class="btn btn-ghost <%= page === '/' ? 'active' : '' %>" href="/">Home</a>
+    <a class="btn btn-ghost <%= page === '/lego/sets' ? 'active' : '' %>" href="/lego/sets">View Collection</a>
+    <a class="btn btn-ghost <%= page === '/about' ? 'active' : '' %>" href="/about">About</a>
+  </div>
+</nav>
+
